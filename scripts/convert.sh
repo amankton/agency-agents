@@ -65,6 +65,7 @@ TODAY="$(date +%Y-%m-%d)"
 AGENT_DIRS=(
   academic design engineering finance game-development marketing paid-media product project-management
   sales security spatial-computing specialized strategy support testing
+  integrations/mcp-memory
 )
 
 # --- Usage ---
@@ -105,6 +106,32 @@ slugify() {
   echo "$1" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//'
 }
 
+SLUG_SEEN_LIST=$'\n'
+AGENT_SLUG=""
+
+file_stem_slug() {
+  local file="$1" rel
+  rel="${file#$REPO_ROOT/}"
+  rel="${rel%.md}"
+  slugify "$rel"
+}
+
+agent_slug() {
+  local file="$1" name="$2" slug fallback
+  slug="$(slugify "$name")"
+
+  if [[ "$SLUG_SEEN_LIST" == *$'\n'"$slug"$'\n'* ]]; then
+    fallback="$(slugify "$(basename "$file" .md)")"
+    if [[ -z "$fallback" || "$SLUG_SEEN_LIST" == *$'\n'"$fallback"$'\n'* ]]; then
+      fallback="$(file_stem_slug "$file")"
+    fi
+    slug="$fallback"
+  fi
+
+  SLUG_SEEN_LIST+="${slug}"$'\n'
+  AGENT_SLUG="$slug"
+}
+
 # Escape a value for a TOML basic string, including control characters that
 # cannot appear raw in TOML source.
 toml_escape_string() {
@@ -128,7 +155,8 @@ convert_antigravity() {
 
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
-  slug="agency-$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="agency-$AGENT_SLUG"
   body="$(get_body "$file")"
 
   outdir="$OUT_DIR/antigravity/$slug"
@@ -154,7 +182,8 @@ convert_codex() {
 
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
-  slug="$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="$AGENT_SLUG"
   body="$(get_body "$file")"
 
   outfile="$OUT_DIR/codex/agents/${slug}.toml"
@@ -176,7 +205,8 @@ convert_gemini_cli() {
 
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
-  slug="$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="$AGENT_SLUG"
   body="$(get_body "$file")"
 
   # Gemini CLI subagent format: .md file in ~/.gemini/agents/
@@ -244,7 +274,8 @@ convert_opencode() {
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
   color="$(resolve_opencode_color "$(get_field "color" "$file")")"
-  slug="$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="$AGENT_SLUG"
   body="$(get_body "$file")"
 
   outfile="$OUT_DIR/opencode/agents/${slug}.md"
@@ -269,7 +300,8 @@ convert_cursor() {
 
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
-  slug="$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="$AGENT_SLUG"
   body="$(get_body "$file")"
 
   outfile="$OUT_DIR/cursor/rules/${slug}.mdc"
@@ -293,7 +325,8 @@ convert_openclaw() {
 
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
-  slug="$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="$AGENT_SLUG"
   body="$(get_body "$file")"
 
   outdir="$OUT_DIR/openclaw/$slug"
@@ -385,7 +418,8 @@ convert_qwen() {
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
   tools="$(get_field "tools" "$file")"
-  slug="$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="$AGENT_SLUG"
   body="$(get_body "$file")"
 
   outfile="$OUT_DIR/qwen/agents/${slug}.md"
@@ -419,7 +453,8 @@ convert_kimi() {
 
   name="$(get_field "name" "$file")"
   description="$(get_field "description" "$file")"
-  slug="$(slugify "$name")"
+  agent_slug "$file" "$name"
+  slug="$AGENT_SLUG"
   body="$(get_body "$file")"
 
   outdir="$OUT_DIR/kimi/$slug"
@@ -521,6 +556,8 @@ HEREDOC
 run_conversions() {
   local tool="$1"
   local count=0
+  SLUG_SEEN_LIST=$'\n'
+  AGENT_SLUG=""
 
   for dir in "${AGENT_DIRS[@]}"; do
     local dirpath="$REPO_ROOT/$dir"
@@ -605,7 +642,7 @@ main() {
 
   if $use_parallel && [[ "$tool" == "all" ]]; then
     # Tools that write to separate dirs can run in parallel; buffer output so each tool's output stays together
-    local parallel_tools=(antigravity gemini-cli opencode cursor openclaw qwen codex)
+    local parallel_tools=(antigravity gemini-cli opencode cursor openclaw qwen kimi codex)
     local parallel_out_dir
     parallel_out_dir="$(mktemp -d)"
     info "Converting: ${#parallel_tools[@]}/${n_tools} tools in parallel (output buffered per tool)..."
@@ -617,7 +654,7 @@ main() {
       [[ -f "$parallel_out_dir/$t" ]] && cat "$parallel_out_dir/$t"
     done
     rm -rf "$parallel_out_dir"
-    local idx=8
+    local idx=$(( ${#parallel_tools[@]} + 1 ))
     for t in aider windsurf; do
       progress_bar "$idx" "$n_tools"
       printf "\n"

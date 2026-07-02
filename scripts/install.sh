@@ -104,10 +104,11 @@ INTEGRATIONS="$REPO_ROOT/integrations"
 
 ALL_TOOLS=(claude-code copilot antigravity gemini-cli opencode openclaw cursor aider windsurf qwen kimi codex)
 
-# Standard agent category directories (keep sorted, sync with convert.sh / lint-agents.sh)
+# Agent source directories (keep sorted, sync with convert.sh / lint-agents.sh)
 AGENT_DIRS=(
   academic design engineering finance game-development marketing paid-media product project-management
   sales security spatial-computing specialized strategy support testing
+  integrations/mcp-memory
 )
 
 # ---------------------------------------------------------------------------

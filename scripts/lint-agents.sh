@@ -25,8 +25,10 @@ AGENT_DIRS=(
   security
   spatial-computing
   specialized
+  strategy
   support
   testing
+  integrations/mcp-memory
 )
 
 REQUIRED_FRONTMATTER=("name" "description" "color")
@@ -149,7 +151,9 @@ else
   for dir in "${AGENT_DIRS[@]}"; do
     if [[ -d "$dir" ]]; then
       while IFS= read -r f; do
-        files+=("$f")
+        if [[ "$(head -1 "$f")" == "---" ]]; then
+          files+=("$f")
+        fi
       done < <(find "$dir" -name "*.md" -type f | sort)
     fi
   done

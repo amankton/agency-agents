@@ -1,0 +1,1696 @@
+{
+  "total_agents": 210,
+  "promoted_overlays": 210,
+  "promoted_sources": 210,
+  "legacy_backups": 210,
+  "decisions": {
+    "split": 24,
+    "merge": 7,
+    "keep": 24,
+    "refactor": 129,
+    "rewrite": 23,
+    "deprecate": 3
+  },
+  "files": [
+    {
+      "agent_id": "specialized-agents-orchestrator",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/agents-orchestrator.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/agents-orchestrator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/agents-orchestrator.md"
+    },
+    {
+      "agent_id": "specialized-specialized-workflow-architect",
+      "decision": "merge",
+      "runtime_status": "merged_source",
+      "source_path": "specialized/specialized-workflow-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-workflow-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-workflow-architect.md"
+    },
+    {
+      "agent_id": "project-management-project-manager-senior",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "project-management/project-manager-senior.md",
+      "promoted_path": "agency-audit/promoted-agents/project-management/project-manager-senior.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/project-management/project-manager-senior.md"
+    },
+    {
+      "agent_id": "testing-testing-evidence-collector",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "testing/testing-evidence-collector.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-evidence-collector.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-evidence-collector.md"
+    },
+    {
+      "agent_id": "testing-testing-reality-checker",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "testing/testing-reality-checker.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-reality-checker.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-reality-checker.md"
+    },
+    {
+      "agent_id": "engineering-engineering-autonomous-optimization-architect",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-autonomous-optimization-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-autonomous-optimization-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-autonomous-optimization-architect.md"
+    },
+    {
+      "agent_id": "security-security-penetration-tester",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "security/security-penetration-tester.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-penetration-tester.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-penetration-tester.md"
+    },
+    {
+      "agent_id": "engineering-engineering-ai-data-remediation-engineer",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-ai-data-remediation-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-ai-data-remediation-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-ai-data-remediation-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-incident-response-commander",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "engineering/engineering-incident-response-commander.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-incident-response-commander.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-incident-response-commander.md"
+    },
+    {
+      "agent_id": "paid-media-paid-media-ppc-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "paid-media/paid-media-ppc-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/paid-media/paid-media-ppc-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/paid-media/paid-media-ppc-strategist.md"
+    },
+    {
+      "agent_id": "security-security-incident-responder",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "security/security-incident-responder.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-incident-responder.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-incident-responder.md"
+    },
+    {
+      "agent_id": "security-security-senior-secops",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "security/security-senior-secops.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-senior-secops.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-senior-secops.md"
+    },
+    {
+      "agent_id": "engineering-engineering-devops-automator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-devops-automator.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-devops-automator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-devops-automator.md"
+    },
+    {
+      "agent_id": "paid-media-paid-media-search-query-analyst",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "paid-media/paid-media-search-query-analyst.md",
+      "promoted_path": "agency-audit/promoted-agents/paid-media/paid-media-search-query-analyst.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/paid-media/paid-media-search-query-analyst.md"
+    },
+    {
+      "agent_id": "paid-media-paid-media-tracking-specialist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "paid-media/paid-media-tracking-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/paid-media/paid-media-tracking-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/paid-media/paid-media-tracking-specialist.md"
+    },
+    {
+      "agent_id": "testing-testing-api-tester",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "testing/testing-api-tester.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-api-tester.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-api-tester.md"
+    },
+    {
+      "agent_id": "testing-testing-accessibility-auditor",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "testing/testing-accessibility-auditor.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-accessibility-auditor.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-accessibility-auditor.md"
+    },
+    {
+      "agent_id": "product-product-manager",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "product/product-manager.md",
+      "promoted_path": "agency-audit/promoted-agents/product/product-manager.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/product/product-manager.md"
+    },
+    {
+      "agent_id": "security-security-threat-detection-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "security/security-threat-detection-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-threat-detection-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-threat-detection-engineer.md"
+    },
+    {
+      "agent_id": "testing-testing-performance-benchmarker",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "testing/testing-performance-benchmarker.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-performance-benchmarker.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-performance-benchmarker.md"
+    },
+    {
+      "agent_id": "specialized-sales-outreach",
+      "decision": "deprecate",
+      "runtime_status": "deprecated_alias",
+      "source_path": "specialized/sales-outreach.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/sales-outreach.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/sales-outreach.md"
+    },
+    {
+      "agent_id": "sales-sales-outbound-strategist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "sales/sales-outbound-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-outbound-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-outbound-strategist.md"
+    },
+    {
+      "agent_id": "sales-sales-offer-lead-gen-strategist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "sales/sales-offer-lead-gen-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-offer-lead-gen-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-offer-lead-gen-strategist.md"
+    },
+    {
+      "agent_id": "sales-sales-account-strategist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "sales/sales-account-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-account-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-account-strategist.md"
+    },
+    {
+      "agent_id": "specialized-customer-success-manager",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/customer-success-manager.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/customer-success-manager.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/customer-success-manager.md"
+    },
+    {
+      "agent_id": "support-support-support-responder",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "support/support-support-responder.md",
+      "promoted_path": "agency-audit/promoted-agents/support/support-support-responder.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/support/support-support-responder.md"
+    },
+    {
+      "agent_id": "specialized-customer-service",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/customer-service.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/customer-service.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/customer-service.md"
+    },
+    {
+      "agent_id": "sales-sales-pipeline-analyst",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "sales/sales-pipeline-analyst.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-pipeline-analyst.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-pipeline-analyst.md"
+    },
+    {
+      "agent_id": "sales-sales-deal-strategist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "sales/sales-deal-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-deal-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-deal-strategist.md"
+    },
+    {
+      "agent_id": "sales-sales-proposal-strategist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "sales/sales-proposal-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-proposal-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-proposal-strategist.md"
+    },
+    {
+      "agent_id": "product-product-feedback-synthesizer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "product/product-feedback-synthesizer.md",
+      "promoted_path": "agency-audit/promoted-agents/product/product-feedback-synthesizer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/product/product-feedback-synthesizer.md"
+    },
+    {
+      "agent_id": "product-product-sprint-prioritizer",
+      "decision": "merge",
+      "runtime_status": "merged_source",
+      "source_path": "product/product-sprint-prioritizer.md",
+      "promoted_path": "agency-audit/promoted-agents/product/product-sprint-prioritizer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/product/product-sprint-prioritizer.md"
+    },
+    {
+      "agent_id": "product-product-trend-researcher",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "product/product-trend-researcher.md",
+      "promoted_path": "agency-audit/promoted-agents/product/product-trend-researcher.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/product/product-trend-researcher.md"
+    },
+    {
+      "agent_id": "product-product-behavioral-nudge-engine",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "product/product-behavioral-nudge-engine.md",
+      "promoted_path": "agency-audit/promoted-agents/product/product-behavioral-nudge-engine.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/product/product-behavioral-nudge-engine.md"
+    },
+    {
+      "agent_id": "project-management-project-management-project-shepherd",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "project-management/project-management-project-shepherd.md",
+      "promoted_path": "agency-audit/promoted-agents/project-management/project-management-project-shepherd.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/project-management/project-management-project-shepherd.md"
+    },
+    {
+      "agent_id": "project-management-project-management-studio-producer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "project-management/project-management-studio-producer.md",
+      "promoted_path": "agency-audit/promoted-agents/project-management/project-management-studio-producer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/project-management/project-management-studio-producer.md"
+    },
+    {
+      "agent_id": "project-management-project-management-studio-operations",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "project-management/project-management-studio-operations.md",
+      "promoted_path": "agency-audit/promoted-agents/project-management/project-management-studio-operations.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/project-management/project-management-studio-operations.md"
+    },
+    {
+      "agent_id": "project-management-project-management-experiment-tracker",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "project-management/project-management-experiment-tracker.md",
+      "promoted_path": "agency-audit/promoted-agents/project-management/project-management-experiment-tracker.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/project-management/project-management-experiment-tracker.md"
+    },
+    {
+      "agent_id": "project-management-project-management-jira-workflow-steward",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "project-management/project-management-jira-workflow-steward.md",
+      "promoted_path": "agency-audit/promoted-agents/project-management/project-management-jira-workflow-steward.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/project-management/project-management-jira-workflow-steward.md"
+    },
+    {
+      "agent_id": "project-management-project-management-meeting-notes-specialist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "project-management/project-management-meeting-notes-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/project-management/project-management-meeting-notes-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/project-management/project-management-meeting-notes-specialist.md"
+    },
+    {
+      "agent_id": "security-security-threat-intelligence-analyst",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "security/security-threat-intelligence-analyst.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-threat-intelligence-analyst.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-threat-intelligence-analyst.md"
+    },
+    {
+      "agent_id": "security-security-compliance-auditor",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "security/security-compliance-auditor.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-compliance-auditor.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-compliance-auditor.md"
+    },
+    {
+      "agent_id": "security-security-cloud-security-architect",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "security/security-cloud-security-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-cloud-security-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-cloud-security-architect.md"
+    },
+    {
+      "agent_id": "security-security-appsec-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "security/security-appsec-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-appsec-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-appsec-engineer.md"
+    },
+    {
+      "agent_id": "security-security-architect",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "security/security-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-architect.md"
+    },
+    {
+      "agent_id": "security-security-blockchain-security-auditor",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "security/security-blockchain-security-auditor.md",
+      "promoted_path": "agency-audit/promoted-agents/security/security-blockchain-security-auditor.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/security/security-blockchain-security-auditor.md"
+    },
+    {
+      "agent_id": "specialized-automation-governance-architect",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/automation-governance-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/automation-governance-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/automation-governance-architect.md"
+    },
+    {
+      "agent_id": "specialized-agentic-identity-trust",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/agentic-identity-trust.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/agentic-identity-trust.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/agentic-identity-trust.md"
+    },
+    {
+      "agent_id": "specialized-specialized-model-qa",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "specialized/specialized-model-qa.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-model-qa.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-model-qa.md"
+    },
+    {
+      "agent_id": "specialized-identity-graph-operator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/identity-graph-operator.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/identity-graph-operator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/identity-graph-operator.md"
+    },
+    {
+      "agent_id": "paid-media-paid-media-auditor",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "paid-media/paid-media-auditor.md",
+      "promoted_path": "agency-audit/promoted-agents/paid-media/paid-media-auditor.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/paid-media/paid-media-auditor.md"
+    },
+    {
+      "agent_id": "paid-media-paid-media-paid-social-strategist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "paid-media/paid-media-paid-social-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/paid-media/paid-media-paid-social-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/paid-media/paid-media-paid-social-strategist.md"
+    },
+    {
+      "agent_id": "paid-media-paid-media-creative-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "paid-media/paid-media-creative-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/paid-media/paid-media-creative-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/paid-media/paid-media-creative-strategist.md"
+    },
+    {
+      "agent_id": "paid-media-paid-media-programmatic-buyer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "paid-media/paid-media-programmatic-buyer.md",
+      "promoted_path": "agency-audit/promoted-agents/paid-media/paid-media-programmatic-buyer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/paid-media/paid-media-programmatic-buyer.md"
+    },
+    {
+      "agent_id": "marketing-marketing-growth-hacker",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-growth-hacker.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-growth-hacker.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-growth-hacker.md"
+    },
+    {
+      "agent_id": "marketing-marketing-app-store-optimizer",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-app-store-optimizer.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-app-store-optimizer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-app-store-optimizer.md"
+    },
+    {
+      "agent_id": "marketing-marketing-ai-citation-strategist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-ai-citation-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-ai-citation-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-ai-citation-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-agentic-search-optimizer",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-agentic-search-optimizer.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-agentic-search-optimizer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-agentic-search-optimizer.md"
+    },
+    {
+      "agent_id": "marketing-marketing-aeo-foundations",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-aeo-foundations.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-aeo-foundations.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-aeo-foundations.md"
+    },
+    {
+      "agent_id": "marketing-marketing-seo-specialist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-seo-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-seo-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-seo-specialist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-content-creator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-content-creator.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-content-creator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-content-creator.md"
+    },
+    {
+      "agent_id": "marketing-marketing-social-media-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-social-media-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-social-media-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-social-media-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-multi-platform-publisher",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-multi-platform-publisher.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-multi-platform-publisher.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-multi-platform-publisher.md"
+    },
+    {
+      "agent_id": "marketing-marketing-twitter-engager",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-twitter-engager.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-twitter-engager.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-twitter-engager.md"
+    },
+    {
+      "agent_id": "marketing-marketing-x-twitter-intelligence-analyst",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-x-twitter-intelligence-analyst.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-x-twitter-intelligence-analyst.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-x-twitter-intelligence-analyst.md"
+    },
+    {
+      "agent_id": "marketing-marketing-linkedin-content-creator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-linkedin-content-creator.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-linkedin-content-creator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-linkedin-content-creator.md"
+    },
+    {
+      "agent_id": "marketing-marketing-instagram-curator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-instagram-curator.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-instagram-curator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-instagram-curator.md"
+    },
+    {
+      "agent_id": "marketing-marketing-tiktok-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-tiktok-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-tiktok-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-tiktok-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-video-optimization-specialist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-video-optimization-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-video-optimization-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-video-optimization-specialist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-short-video-editing-coach",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-short-video-editing-coach.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-short-video-editing-coach.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-short-video-editing-coach.md"
+    },
+    {
+      "agent_id": "marketing-marketing-china-market-localization-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-china-market-localization-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-china-market-localization-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-china-market-localization-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-china-ecommerce-operator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-china-ecommerce-operator.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-china-ecommerce-operator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-china-ecommerce-operator.md"
+    },
+    {
+      "agent_id": "marketing-marketing-douyin-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-douyin-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-douyin-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-douyin-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-kuaishou-strategist",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-kuaishou-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-kuaishou-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-kuaishou-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-xiaohongshu-specialist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-xiaohongshu-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-xiaohongshu-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-xiaohongshu-specialist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-bilibili-content-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-bilibili-content-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-bilibili-content-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-bilibili-content-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-wechat-official-account",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-wechat-official-account.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-wechat-official-account.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-wechat-official-account.md"
+    },
+    {
+      "agent_id": "marketing-marketing-weibo-strategist",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-weibo-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-weibo-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-weibo-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-baidu-seo-specialist",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-baidu-seo-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-baidu-seo-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-baidu-seo-specialist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-private-domain-operator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-private-domain-operator.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-private-domain-operator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-private-domain-operator.md"
+    },
+    {
+      "agent_id": "engineering-engineering-backend-architect",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-backend-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-backend-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-backend-architect.md"
+    },
+    {
+      "agent_id": "engineering-engineering-frontend-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-frontend-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-frontend-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-frontend-developer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-software-architect",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-software-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-software-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-software-architect.md"
+    },
+    {
+      "agent_id": "engineering-engineering-senior-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-senior-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-senior-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-senior-developer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-code-reviewer",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-code-reviewer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-code-reviewer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-code-reviewer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-sre",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-sre.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-sre.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-sre.md"
+    },
+    {
+      "agent_id": "engineering-engineering-database-optimizer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-database-optimizer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-database-optimizer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-database-optimizer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-data-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-data-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-data-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-data-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-ai-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-ai-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-ai-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-ai-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-prompt-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-prompt-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-prompt-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-prompt-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-feishu-integration-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-feishu-integration-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-feishu-integration-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-feishu-integration-developer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-email-intelligence-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-email-intelligence-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-email-intelligence-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-email-intelligence-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-voice-ai-integration-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-voice-ai-integration-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-voice-ai-integration-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-voice-ai-integration-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-wechat-mini-program-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-wechat-mini-program-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-wechat-mini-program-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-wechat-mini-program-developer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-solidity-smart-contract-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-solidity-smart-contract-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-solidity-smart-contract-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-solidity-smart-contract-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-embedded-firmware-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-embedded-firmware-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-embedded-firmware-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-embedded-firmware-engineer.md"
+    },
+    {
+      "agent_id": "specialized-specialized-mcp-builder",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/specialized-mcp-builder.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-mcp-builder.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-mcp-builder.md"
+    },
+    {
+      "agent_id": "specialized-specialized-salesforce-architect",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/specialized-salesforce-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-salesforce-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-salesforce-architect.md"
+    },
+    {
+      "agent_id": "specialized-data-consolidation-agent",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/data-consolidation-agent.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/data-consolidation-agent.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/data-consolidation-agent.md"
+    },
+    {
+      "agent_id": "specialized-report-distribution-agent",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/report-distribution-agent.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/report-distribution-agent.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/report-distribution-agent.md"
+    },
+    {
+      "agent_id": "design-design-ui-designer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "design/design-ui-designer.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-ui-designer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-ui-designer.md"
+    },
+    {
+      "agent_id": "design-design-ux-architect",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "design/design-ux-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-ux-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-ux-architect.md"
+    },
+    {
+      "agent_id": "design-design-ux-researcher",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "design/design-ux-researcher.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-ux-researcher.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-ux-researcher.md"
+    },
+    {
+      "agent_id": "design-design-brand-guardian",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "design/design-brand-guardian.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-brand-guardian.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-brand-guardian.md"
+    },
+    {
+      "agent_id": "design-design-visual-storyteller",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "design/design-visual-storyteller.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-visual-storyteller.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-visual-storyteller.md"
+    },
+    {
+      "agent_id": "design-design-whimsy-injector",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "design/design-whimsy-injector.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-whimsy-injector.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-whimsy-injector.md"
+    },
+    {
+      "agent_id": "design-design-image-prompt-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "design/design-image-prompt-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-image-prompt-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-image-prompt-engineer.md"
+    },
+    {
+      "agent_id": "design-design-inclusive-visuals-specialist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "design/design-inclusive-visuals-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-inclusive-visuals-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-inclusive-visuals-specialist.md"
+    },
+    {
+      "agent_id": "design-design-persona-walkthrough",
+      "decision": "merge",
+      "runtime_status": "merged_source",
+      "source_path": "design/design-persona-walkthrough.md",
+      "promoted_path": "agency-audit/promoted-agents/design/design-persona-walkthrough.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/design/design-persona-walkthrough.md"
+    },
+    {
+      "agent_id": "specialized-specialized-cultural-intelligence-strategist",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/specialized-cultural-intelligence-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-cultural-intelligence-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-cultural-intelligence-strategist.md"
+    },
+    {
+      "agent_id": "finance-finance-bookkeeper-controller",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "finance/finance-bookkeeper-controller.md",
+      "promoted_path": "agency-audit/promoted-agents/finance/finance-bookkeeper-controller.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/finance/finance-bookkeeper-controller.md"
+    },
+    {
+      "agent_id": "finance-finance-financial-analyst",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "finance/finance-financial-analyst.md",
+      "promoted_path": "agency-audit/promoted-agents/finance/finance-financial-analyst.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/finance/finance-financial-analyst.md"
+    },
+    {
+      "agent_id": "finance-finance-fpa-analyst",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "finance/finance-fpa-analyst.md",
+      "promoted_path": "agency-audit/promoted-agents/finance/finance-fpa-analyst.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/finance/finance-fpa-analyst.md"
+    },
+    {
+      "agent_id": "finance-finance-tax-strategist",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "finance/finance-tax-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/finance/finance-tax-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/finance/finance-tax-strategist.md"
+    },
+    {
+      "agent_id": "finance-finance-investment-researcher",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "finance/finance-investment-researcher.md",
+      "promoted_path": "agency-audit/promoted-agents/finance/finance-investment-researcher.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/finance/finance-investment-researcher.md"
+    },
+    {
+      "agent_id": "specialized-legal-document-review",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/legal-document-review.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/legal-document-review.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/legal-document-review.md"
+    },
+    {
+      "agent_id": "specialized-legal-client-intake",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/legal-client-intake.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/legal-client-intake.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/legal-client-intake.md"
+    },
+    {
+      "agent_id": "specialized-legal-billing-time-tracking",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/legal-billing-time-tracking.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/legal-billing-time-tracking.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/legal-billing-time-tracking.md"
+    },
+    {
+      "agent_id": "specialized-healthcare-customer-service",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/healthcare-customer-service.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/healthcare-customer-service.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/healthcare-customer-service.md"
+    },
+    {
+      "agent_id": "specialized-healthcare-marketing-compliance",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "specialized/healthcare-marketing-compliance.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/healthcare-marketing-compliance.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/healthcare-marketing-compliance.md"
+    },
+    {
+      "agent_id": "game-development-game-designer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/game-designer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/game-designer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/game-designer.md"
+    },
+    {
+      "agent_id": "game-development-level-designer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/level-designer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/level-designer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/level-designer.md"
+    },
+    {
+      "agent_id": "game-development-narrative-designer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/narrative-designer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/narrative-designer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/narrative-designer.md"
+    },
+    {
+      "agent_id": "game-development-technical-artist",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "game-development/technical-artist.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/technical-artist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/technical-artist.md"
+    },
+    {
+      "agent_id": "game-development-unity-unity-architect",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/unity/unity-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unity/unity-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unity/unity-architect.md"
+    },
+    {
+      "agent_id": "game-development-unreal-engine-unreal-systems-engineer",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "game-development/unreal-engine/unreal-systems-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unreal-engine/unreal-systems-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unreal-engine/unreal-systems-engineer.md"
+    },
+    {
+      "agent_id": "game-development-godot-godot-gameplay-scripter",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/godot/godot-gameplay-scripter.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/godot/godot-gameplay-scripter.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/godot/godot-gameplay-scripter.md"
+    },
+    {
+      "agent_id": "spatial-computing-xr-interface-architect",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "spatial-computing/xr-interface-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/spatial-computing/xr-interface-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/spatial-computing/xr-interface-architect.md"
+    },
+    {
+      "agent_id": "spatial-computing-xr-immersive-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "spatial-computing/xr-immersive-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/spatial-computing/xr-immersive-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/spatial-computing/xr-immersive-developer.md"
+    },
+    {
+      "agent_id": "spatial-computing-visionos-spatial-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "spatial-computing/visionos-spatial-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/spatial-computing/visionos-spatial-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/spatial-computing/visionos-spatial-engineer.md"
+    },
+    {
+      "agent_id": "academic-academic-historian",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "academic/academic-historian.md",
+      "promoted_path": "agency-audit/promoted-agents/academic/academic-historian.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/academic/academic-historian.md"
+    },
+    {
+      "agent_id": "academic-academic-geographer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "academic/academic-geographer.md",
+      "promoted_path": "agency-audit/promoted-agents/academic/academic-geographer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/academic/academic-geographer.md"
+    },
+    {
+      "agent_id": "academic-academic-anthropologist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "academic/academic-anthropologist.md",
+      "promoted_path": "agency-audit/promoted-agents/academic/academic-anthropologist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/academic/academic-anthropologist.md"
+    },
+    {
+      "agent_id": "academic-academic-narratologist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "academic/academic-narratologist.md",
+      "promoted_path": "agency-audit/promoted-agents/academic/academic-narratologist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/academic/academic-narratologist.md"
+    },
+    {
+      "agent_id": "academic-academic-psychologist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "academic/academic-psychologist.md",
+      "promoted_path": "agency-audit/promoted-agents/academic/academic-psychologist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/academic/academic-psychologist.md"
+    },
+    {
+      "agent_id": "specialized-study-abroad-advisor",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/study-abroad-advisor.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/study-abroad-advisor.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/study-abroad-advisor.md"
+    },
+    {
+      "agent_id": "specialized-grant-writer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/grant-writer.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/grant-writer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/grant-writer.md"
+    },
+    {
+      "agent_id": "specialized-recruitment-specialist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/recruitment-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/recruitment-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/recruitment-specialist.md"
+    },
+    {
+      "agent_id": "specialized-language-translator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/language-translator.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/language-translator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/language-translator.md"
+    },
+    {
+      "agent_id": "specialized-personal-growth-mentor",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/personal-growth-mentor.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/personal-growth-mentor.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/personal-growth-mentor.md"
+    },
+    {
+      "agent_id": "marketing-marketing-pr-communications-manager",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-pr-communications-manager.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-pr-communications-manager.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-pr-communications-manager.md"
+    },
+    {
+      "agent_id": "specialized-hr-onboarding",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/hr-onboarding.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/hr-onboarding.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/hr-onboarding.md"
+    },
+    {
+      "agent_id": "specialized-business-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/business-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/business-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/business-strategist.md"
+    },
+    {
+      "agent_id": "specialized-change-management-consultant",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/change-management-consultant.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/change-management-consultant.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/change-management-consultant.md"
+    },
+    {
+      "agent_id": "specialized-supply-chain-strategist",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "specialized/supply-chain-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/supply-chain-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/supply-chain-strategist.md"
+    },
+    {
+      "agent_id": "sales-sales-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "sales/sales-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-engineer.md"
+    },
+    {
+      "agent_id": "sales-sales-coach",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "sales/sales-coach.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-coach.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-coach.md"
+    },
+    {
+      "agent_id": "marketing-marketing-global-podcast-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-global-podcast-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-global-podcast-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-global-podcast-strategist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-podcast-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-podcast-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-podcast-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-podcast-strategist.md"
+    },
+    {
+      "agent_id": "integrations-mcp-memory-backend-architect-with-memory",
+      "decision": "deprecate",
+      "runtime_status": "deprecated_alias",
+      "source_path": "integrations/mcp-memory/backend-architect-with-memory.md",
+      "promoted_path": "agency-audit/promoted-agents/integrations/mcp-memory/backend-architect-with-memory.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/integrations/mcp-memory/backend-architect-with-memory.md"
+    },
+    {
+      "agent_id": "specialized-real-estate-buyer-seller",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/real-estate-buyer-seller.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/real-estate-buyer-seller.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/real-estate-buyer-seller.md"
+    },
+    {
+      "agent_id": "specialized-hospitality-guest-services",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/hospitality-guest-services.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/hospitality-guest-services.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/hospitality-guest-services.md"
+    },
+    {
+      "agent_id": "specialized-government-digital-presales-consultant",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/government-digital-presales-consultant.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/government-digital-presales-consultant.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/government-digital-presales-consultant.md"
+    },
+    {
+      "agent_id": "marketing-marketing-cross-border-ecommerce",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "marketing/marketing-cross-border-ecommerce.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-cross-border-ecommerce.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-cross-border-ecommerce.md"
+    },
+    {
+      "agent_id": "marketing-marketing-zhihu-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-zhihu-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-zhihu-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-zhihu-strategist.md"
+    },
+    {
+      "agent_id": "specialized-loan-officer-assistant",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/loan-officer-assistant.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/loan-officer-assistant.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/loan-officer-assistant.md"
+    },
+    {
+      "agent_id": "specialized-specialized-chief-of-staff",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/specialized-chief-of-staff.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-chief-of-staff.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-chief-of-staff.md"
+    },
+    {
+      "agent_id": "specialized-specialized-pricing-analyst",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "specialized/specialized-pricing-analyst.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-pricing-analyst.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-pricing-analyst.md"
+    },
+    {
+      "agent_id": "specialized-medical-billing-coding-specialist",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/medical-billing-coding-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/medical-billing-coding-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/medical-billing-coding-specialist.md"
+    },
+    {
+      "agent_id": "specialized-retail-customer-returns",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/retail-customer-returns.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/retail-customer-returns.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/retail-customer-returns.md"
+    },
+    {
+      "agent_id": "engineering-engineering-it-service-manager",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "engineering/engineering-it-service-manager.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-it-service-manager.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-it-service-manager.md"
+    },
+    {
+      "agent_id": "engineering-engineering-cms-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-cms-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-cms-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-cms-developer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-git-workflow-master",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-git-workflow-master.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-git-workflow-master.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-git-workflow-master.md"
+    },
+    {
+      "agent_id": "specialized-lsp-index-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/lsp-index-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/lsp-index-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/lsp-index-engineer.md"
+    },
+    {
+      "agent_id": "specialized-corporate-training-designer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/corporate-training-designer.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/corporate-training-designer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/corporate-training-designer.md"
+    },
+    {
+      "agent_id": "specialized-specialized-french-consulting-market",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "specialized/specialized-french-consulting-market.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-french-consulting-market.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-french-consulting-market.md"
+    },
+    {
+      "agent_id": "sales-sales-discovery-coach",
+      "decision": "deprecate",
+      "runtime_status": "deprecated_alias",
+      "source_path": "sales/sales-discovery-coach.md",
+      "promoted_path": "agency-audit/promoted-agents/sales/sales-discovery-coach.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/sales/sales-discovery-coach.md"
+    },
+    {
+      "agent_id": "specialized-specialized-civil-engineer",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/specialized-civil-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-civil-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-civil-engineer.md"
+    },
+    {
+      "agent_id": "specialized-accounts-payable-agent",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "specialized/accounts-payable-agent.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/accounts-payable-agent.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/accounts-payable-agent.md"
+    },
+    {
+      "agent_id": "marketing-marketing-livestream-commerce-coach",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "marketing/marketing-livestream-commerce-coach.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-livestream-commerce-coach.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-livestream-commerce-coach.md"
+    },
+    {
+      "agent_id": "spatial-computing-xr-cockpit-interaction-specialist",
+      "decision": "merge",
+      "runtime_status": "merged_source",
+      "source_path": "spatial-computing/xr-cockpit-interaction-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/spatial-computing/xr-cockpit-interaction-specialist.md"
+    },
+    {
+      "agent_id": "specialized-specialized-document-generator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/specialized-document-generator.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-document-generator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-document-generator.md"
+    },
+    {
+      "agent_id": "specialized-sales-data-extraction-agent",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/sales-data-extraction-agent.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/sales-data-extraction-agent.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/sales-data-extraction-agent.md"
+    },
+    {
+      "agent_id": "support-support-executive-summary-generator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "support/support-executive-summary-generator.md",
+      "promoted_path": "agency-audit/promoted-agents/support/support-executive-summary-generator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/support/support-executive-summary-generator.md"
+    },
+    {
+      "agent_id": "engineering-engineering-orgscript-engineer",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "engineering/engineering-orgscript-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-orgscript-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-orgscript-engineer.md"
+    },
+    {
+      "agent_id": "spatial-computing-terminal-integration-specialist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "spatial-computing/terminal-integration-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/spatial-computing/terminal-integration-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/spatial-computing/terminal-integration-specialist.md"
+    },
+    {
+      "agent_id": "marketing-marketing-reddit-community-builder",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-reddit-community-builder.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-reddit-community-builder.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-reddit-community-builder.md"
+    },
+    {
+      "agent_id": "marketing-marketing-carousel-growth-engine",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-carousel-growth-engine.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-carousel-growth-engine.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-carousel-growth-engine.md"
+    },
+    {
+      "agent_id": "specialized-specialized-developer-advocate",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "specialized/specialized-developer-advocate.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-developer-advocate.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-developer-advocate.md"
+    },
+    {
+      "agent_id": "spatial-computing-macos-spatial-metal-engineer",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "spatial-computing/macos-spatial-metal-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/spatial-computing/macos-spatial-metal-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/spatial-computing/macos-spatial-metal-engineer.md"
+    },
+    {
+      "agent_id": "marketing-marketing-book-co-author",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-book-co-author.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-book-co-author.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-book-co-author.md"
+    },
+    {
+      "agent_id": "marketing-marketing-email-strategist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "marketing/marketing-email-strategist.md",
+      "promoted_path": "agency-audit/promoted-agents/marketing/marketing-email-strategist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/marketing/marketing-email-strategist.md"
+    },
+    {
+      "agent_id": "specialized-specialized-korean-business-navigator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "specialized/specialized-korean-business-navigator.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/specialized-korean-business-navigator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/specialized-korean-business-navigator.md"
+    },
+    {
+      "agent_id": "game-development-unreal-engine-unreal-world-builder",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/unreal-engine/unreal-world-builder.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unreal-engine/unreal-world-builder.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unreal-engine/unreal-world-builder.md"
+    },
+    {
+      "agent_id": "game-development-unity-unity-shader-graph-artist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/unity/unity-shader-graph-artist.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unity/unity-shader-graph-artist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unity/unity-shader-graph-artist.md"
+    },
+    {
+      "agent_id": "game-development-unreal-engine-unreal-multiplayer-architect",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/unreal-engine/unreal-multiplayer-architect.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unreal-engine/unreal-multiplayer-architect.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unreal-engine/unreal-multiplayer-architect.md"
+    },
+    {
+      "agent_id": "game-development-unreal-engine-unreal-technical-artist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/unreal-engine/unreal-technical-artist.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unreal-engine/unreal-technical-artist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unreal-engine/unreal-technical-artist.md"
+    },
+    {
+      "agent_id": "specialized-zk-steward",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "specialized/zk-steward.md",
+      "promoted_path": "agency-audit/promoted-agents/specialized/zk-steward.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/specialized/zk-steward.md"
+    },
+    {
+      "agent_id": "testing-testing-test-results-analyzer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "testing/testing-test-results-analyzer.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-test-results-analyzer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-test-results-analyzer.md"
+    },
+    {
+      "agent_id": "testing-testing-tool-evaluator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "testing/testing-tool-evaluator.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-tool-evaluator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-tool-evaluator.md"
+    },
+    {
+      "agent_id": "game-development-unity-unity-editor-tool-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/unity/unity-editor-tool-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unity/unity-editor-tool-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unity/unity-editor-tool-developer.md"
+    },
+    {
+      "agent_id": "game-development-unity-unity-multiplayer-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/unity/unity-multiplayer-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/unity/unity-multiplayer-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/unity/unity-multiplayer-engineer.md"
+    },
+    {
+      "agent_id": "game-development-roblox-studio-roblox-systems-scripter",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/roblox-studio/roblox-systems-scripter.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/roblox-studio/roblox-systems-scripter.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/roblox-studio/roblox-systems-scripter.md"
+    },
+    {
+      "agent_id": "game-development-roblox-studio-roblox-avatar-creator",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/roblox-studio/roblox-avatar-creator.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/roblox-studio/roblox-avatar-creator.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/roblox-studio/roblox-avatar-creator.md"
+    },
+    {
+      "agent_id": "game-development-roblox-studio-roblox-experience-designer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/roblox-studio/roblox-experience-designer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/roblox-studio/roblox-experience-designer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/roblox-studio/roblox-experience-designer.md"
+    },
+    {
+      "agent_id": "support-support-legal-compliance-checker",
+      "decision": "split",
+      "runtime_status": "split_parent",
+      "source_path": "support/support-legal-compliance-checker.md",
+      "promoted_path": "agency-audit/promoted-agents/support/support-legal-compliance-checker.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/support/support-legal-compliance-checker.md"
+    },
+    {
+      "agent_id": "testing-testing-workflow-optimizer",
+      "decision": "merge",
+      "runtime_status": "merged_source",
+      "source_path": "testing/testing-workflow-optimizer.md",
+      "promoted_path": "agency-audit/promoted-agents/testing/testing-workflow-optimizer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/testing/testing-workflow-optimizer.md"
+    },
+    {
+      "agent_id": "support-support-infrastructure-maintainer",
+      "decision": "merge",
+      "runtime_status": "merged_source",
+      "source_path": "support/support-infrastructure-maintainer.md",
+      "promoted_path": "agency-audit/promoted-agents/support/support-infrastructure-maintainer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/support/support-infrastructure-maintainer.md"
+    },
+    {
+      "agent_id": "support-support-analytics-reporter",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "support/support-analytics-reporter.md",
+      "promoted_path": "agency-audit/promoted-agents/support/support-analytics-reporter.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/support/support-analytics-reporter.md"
+    },
+    {
+      "agent_id": "support-support-finance-tracker",
+      "decision": "merge",
+      "runtime_status": "merged_source",
+      "source_path": "support/support-finance-tracker.md",
+      "promoted_path": "agency-audit/promoted-agents/support/support-finance-tracker.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/support/support-finance-tracker.md"
+    },
+    {
+      "agent_id": "engineering-engineering-codebase-onboarding-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-codebase-onboarding-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-codebase-onboarding-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-codebase-onboarding-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-filament-optimization-specialist",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-filament-optimization-specialist.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-filament-optimization-specialist.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-filament-optimization-specialist.md"
+    },
+    {
+      "agent_id": "engineering-engineering-minimal-change-engineer",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-minimal-change-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-minimal-change-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-minimal-change-engineer.md"
+    },
+    {
+      "agent_id": "engineering-engineering-mobile-app-builder",
+      "decision": "rewrite",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-mobile-app-builder.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-mobile-app-builder.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-mobile-app-builder.md"
+    },
+    {
+      "agent_id": "engineering-engineering-rapid-prototyper",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-rapid-prototyper.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-rapid-prototyper.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-rapid-prototyper.md"
+    },
+    {
+      "agent_id": "engineering-engineering-technical-writer",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "engineering/engineering-technical-writer.md",
+      "promoted_path": "agency-audit/promoted-agents/engineering/engineering-technical-writer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/engineering/engineering-technical-writer.md"
+    },
+    {
+      "agent_id": "game-development-blender-blender-addon-engineer",
+      "decision": "keep",
+      "runtime_status": "active",
+      "source_path": "game-development/blender/blender-addon-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/blender/blender-addon-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/blender/blender-addon-engineer.md"
+    },
+    {
+      "agent_id": "game-development-game-audio-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/game-audio-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/game-audio-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/game-audio-engineer.md"
+    },
+    {
+      "agent_id": "game-development-godot-godot-multiplayer-engineer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/godot/godot-multiplayer-engineer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/godot/godot-multiplayer-engineer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/godot/godot-multiplayer-engineer.md"
+    },
+    {
+      "agent_id": "game-development-godot-godot-shader-developer",
+      "decision": "refactor",
+      "runtime_status": "active",
+      "source_path": "game-development/godot/godot-shader-developer.md",
+      "promoted_path": "agency-audit/promoted-agents/game-development/godot/godot-shader-developer.md",
+      "legacy_backup_path": "agency-audit/legacy-agents/game-development/godot/godot-shader-developer.md"
+    }
+  ]
+}
